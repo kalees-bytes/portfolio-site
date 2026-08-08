@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kaleeswaran — Ethical Hacker & Developer</title>
+<style>
+  :root{
+    --bg:#0d1117; --fg:#e6edf3; --muted:#8b949e; --accent:#ff4500;
+    --card:#161b22; --border:#30363d;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
+  a{color:var(--accent);text-decoration:none}
+  header{text-align:center;padding:80px 20px 40px;background:linear-gradient(180deg,#1a1f29,var(--bg))}
+  .avatar{width:120px;height:120px;border-radius:50%;border:3px solid var(--accent);display:flex;align-items:center;justify-content:center;font-size:44px;margin:0 auto 18px;background:#21262d}
+  h1{font-size:2.4rem}
+  .tag{color:var(--muted);font-size:1.05rem;margin-top:6px}
+  .container{max-width:900px;margin:0 auto;padding:0 20px}
+  section{padding:40px 0;border-bottom:1px solid var(--border)}
+  h2{color:var(--accent);margin-bottom:18px;font-size:1.5rem}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px}
+  .card h3{margin-bottom:6px}
+  .card p{color:var(--muted);font-size:.92rem}
+  .skills span{display:inline-block;background:#21262d;border:1px solid var(--border);border-radius:20px;padding:6px 14px;margin:5px 5px 0 0;font-size:.85rem}
+  .links a{display:inline-block;margin:8px 14px 0 0;background:var(--card);border:1px solid var(--border);padding:10px 18px;border-radius:8px}
+  footer{text-align:center;padding:30px;color:var(--muted);font-size:.85rem}
+</style>
+</head>
+<body>
+<header>
+  <div class="avatar">&#9760;</div>
+  <h1>Kaleeswaran</h1>
+  <p class="tag">Ethical Hacker &middot; Security Enthusiast &middot; Developer</p>
+  <p class="tag" style="margin-top:10px">Red team mindset, blue team discipline.</p>
+</header>
+
+<div class="container">
+  <section>
+    <h2>About</h2>
+    <p>CS undergrad at SRM Institute of Science and Technology. I build
+    security tools and web apps, and practice authorized recon, CTFs, and
+    malware analysis. I like things fast, low-latency, and actually working.</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card"><h3>subdomain-enum</h3><p>Authorized subdomain discovery via cert logs + DNS.</p></div>
+      <div class="card"><h3>hash-cracker-cli</h3><p>Educational hash ID + dictionary cracker.</p></div>
+      <div class="card"><h3>packet-sniffer</h3><p>Local packet analyzer for learning TCP/IP.</p></div>
+      <div class="card"><h3>todo-fastapi</h3><p>Authenticated ToDo API (JWT + bcrypt).</p></div>
+      <div class="card"><h3>url-shortener</h3><p>FastAPI URL shortener with click stats.</p></div>
+      <div class="card"><h3>file-integrity-monitor</h3><p>SHA-256 baseline change detector.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Python</span><span>Java</span><span>C</span><span>Bash</span>
+      <span>Linux</span><span>Git</span><span>FastAPI</span><span>Scapy</span>
+      <span>Recon</span><span>CTF</span><span>Wireshark</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Connect</h2>
+    <div class="links">
+      <a href="https://github.com/kalees-bytes">GitHub</a>
+      <a href="https://instagram.com/kxleesh">Instagram</a>
+      <a href="mailto:kaleeswarannagaraj2@gmail.com">Email</a>
+    </div>
+  </section>
+</div>
+
+<footer>Stay curious. Hack ethically. &copy; Kaleeswaran</footer>
+</body>
+</html>
